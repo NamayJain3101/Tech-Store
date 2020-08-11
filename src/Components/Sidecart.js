@@ -13,7 +13,7 @@ const Sidecart = () => {
                         <ul>
                             {cart.map(item => {
                                 return <li key={item.id} className="cart-item mb-4">
-                                    <img width="35" src={`../${item.image}`} alt="cartItem"></img>
+                                    <img width="35" src={item.image} alt="cartItem"></img>
                                     <div className="mt-3">
                                         <h6 className="text-uppercase">{item.title}</h6>
                                         <h6 className="text-title text-capitalize">amount: {item.count}</h6>

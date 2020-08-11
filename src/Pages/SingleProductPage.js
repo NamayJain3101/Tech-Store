@@ -19,7 +19,7 @@ const SingleProductPage = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
-                                    <img src={"../" + image} alt="singleProduct" className="img-fluid" />
+                                    <img src={image} alt="singleProduct" className="img-fluid" />
                                 </div>
                                 <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                                     <h5 className="text-title mb-4">Model: {title}</h5>
